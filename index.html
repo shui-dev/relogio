@@ -1,0 +1,67 @@
+<!-- Elden ring ranni the witch -->
+<!-- hWacha -->
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="https://cdn.icon-icons.com/icons2/518/PNG/512/Alarmclock_icon-icons.com_51215.png">
+    <title>Relogio</title>
+    <link href="./index.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <form method="get">
+        <i class="fa-solid fa-calendar-days"></i>
+        <p>Data Atual</p>
+        <div class="date-day">
+          <input class="dia" disabled placeholder="Dia" type="text">
+          <input class="mes" disabled placeholder="Mes" type="text">
+          <input class="ano" disabled placeholder="Ano" type="text">
+        </div>
+
+        <p>Mes Atual</p>
+        <div class="date-dia">
+          <input class="mesS" disabled placeholder="Mes" type="text">
+        </div>
+
+        <p>Hora Atual</p>
+        <div class="date-day">
+          <input class="hora" disabled placeholder="Horas" type="text">
+          <input class="min" disabled placeholder="Minutos" type="text">
+          <input class="sec" disabled placeholder="Segundos" type="text">
+        </div>
+
+        <p>Dia da Semana</p>
+        <div class="date-dia">
+          <input class="diaS" disabled placeholder="Dia" type="text">
+        </div>
+
+        <div class="btns">
+          <button class="btn">Exibir</button>
+          <button class="stop">Parar Relogio</button>
+          <button class="trash"><i class="fa-solid fa-trash"></i></button>
+        </div>
+  
+      </form>
+    </main>
+  
+    <div class="error">
+      <i class="fa-solid fa-circle-exclamation"></i>
+      <p>Escreva Corretamente</p>
+    </div>
+    <div class="alert">
+      <div class="title">
+        <div><i class="fa-solid fa-square-poll-horizontal"></i> Resultado</div>
+        <div class="x"><i class="fa-solid fa-xmark"></i></div>
+      </div>
+      <div class="text">
+        <div id="result"></div>
+      </div>
+    </div>
+    <div class="bg"></div>
+
+    <script src="./index.js"></script>
+    <script src="https://kit.fontawesome.com/a76cf2ada8.js" crossorigin="anonymous"></script>
+  </body>
+</html>
